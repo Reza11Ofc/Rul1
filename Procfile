@@ -1,1 +1,1 @@
-worker: npm install -g pm2 && pm2-runtime index.js --bot-md
+worker: node . -- db 'mongodb+srv://RezaOfc10:reza12345@cluster0.zfsokkw.mongodb.net/?retryWrites=true&w=majority'
